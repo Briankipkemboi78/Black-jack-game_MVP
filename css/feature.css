@@ -1,0 +1,236 @@
+/*Common style start*/
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+:root
+{
+       --themeRed: #e43a47;
+       --gray: #ebe9e9;
+
+}
+
+html
+{
+        scroll-behavior: smooth;
+}
+
+button,
+body
+{
+        font-family: 'Poppins', sans-serif;
+        justify-content: center;
+        align-items: center;
+        background-color: #ebe9e9;
+
+}
+
+*
+{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;    
+}
+
+p
+{
+     font-size: 16px;  
+     line-height: 26px; 
+}
+
+.fullcontainer 
+{
+        width: 100%;
+        padding: 90px 0;
+        background-color: #ebe9e9;
+
+}
+
+.container 
+{
+       width: 90%;
+       margin: auto; 
+
+}
+
+.sectionTitle
+{
+        width: 300px;
+        border-bottom: 3px solid var(--themeRed);
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 600;
+        margin: 0 auto 50px;
+        position: relative;
+        padding: 10px 0;
+        text-transform: uppercase;
+
+}
+
+.sectionTitle::after
+{
+        display: inline-block;
+        content: "";
+        height: 15px;
+        width: 15px;
+        background-color: var(--themeRed);
+        position: absolute;
+        left: calc(50% - 10px);
+        top: calc(75% - 7px);
+        transform: rotate(45deg) translate(50%, 50%);
+        border: 3px solid #ffffff;
+}
+
+section
+{
+        padding: 80px 0;
+        position: relative;
+}
+
+/*Common style end*/
+
+/* Home Style Start*/
+
+.bg{
+        background-color: rgba(0,0,0,0.6);
+
+}
+header
+{
+        width: 100%;
+        background-color: rgba(0,0,0,0.6);
+        position: fixed;
+        z-index: 2;
+}
+/*
+header .container
+{
+        display: flex;
+        justify-content: space-between;
+}
+*/
+header .container .logo
+{
+        padding: 5px 0;
+        height: 10px;
+}
+
+header .container .logo img
+{
+        height: 10%;
+}
+
+header nav ul
+{
+       list-style-type: none;
+
+}
+
+header nav ul li
+{
+        display: inline-block;
+}
+
+header nav ul li a 
+{
+       display: inline-block;
+       height: 75px;
+       line-height: 75px;
+       padding: 0 15px;
+       text-decoration: none;
+       text-transform: capitalize;
+       font-size: 16px;
+       color: #ffffff; 
+       transition: 0.3s;
+}
+
+header nav ul li a:hover 
+{
+        border-bottom: 3px solid var(--themeRed);
+        transition: ease 0.3s;
+}
+
+.banner
+{
+     min-height: 100vh;
+     width: 100%; 
+     background-color: rgb(24, 21, 21);
+     background-blend-mode: multiply;
+     background-size: cover;
+     background-attachment: fixed;
+}
+
+.banner h1
+{
+        margin-top: 230px;
+        display: inline-block;
+        font-size: 40px;
+        color: #fff;
+        width: 50%;
+        line-height: 4.2rem;
+        font-weight: 300;
+}
+
+.banner h1 span
+{
+        background-color: var(--themeRed);
+        display: inline-block;
+        line-height: 3.5rem;
+        padding: 0 15px;
+        font-weight: 600;
+        border-radius: 5px;
+}
+
+.banner p
+{
+        color: #fdfdfd;
+        font-size: 20px;
+        width: 50%;
+        text-shadow: 0 0 2px #000;
+        margin-top: 10px;
+
+}
+.banner h3{
+        color: #fdfdfd;
+        position: relative;
+        padding: 0 15px;
+        font-weight: 600;
+        font-size: 40px;
+        border-bottom: 1px solid var(--themeRed);
+}
+
+.banner button
+{
+        background-color: var(--themeRed);
+        border: 0;
+        outline: none;
+        color: #ffffff;
+        text-decoration: none;
+        padding: 10px 15px;
+        margin-top: 20px;
+        font-size: 13px;
+        border-radius: 3px;
+        font-weight: 500;
+}
+.banner button a{
+        background-color: var(--themeRed);
+        border: 0;
+        outline: none;
+        color: #ffffff;
+        text-decoration: none;
+        padding: 10px 15px;
+        margin-top: 20px;
+        font-size: 13px;
+        border-radius: 3px;
+        font-weight: 500;
+        
+}
+
+button,
+body
+{
+        font-family: 'Poppins', sans-serif;
+        justify-content: center;
+        align-items: center;
+        background-color: #ebe9e9;
+
+}
+/* Home Style End*/
