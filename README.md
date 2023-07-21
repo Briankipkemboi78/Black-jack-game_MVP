@@ -7,12 +7,12 @@ Welcome to the BlackJack Game MVP! This is a minimal viable product (MVP) of the
 
 Deployed Site: https://blackjackalx.netlify.app/
 
-Final Project Blog Article: Link to the final project blog article
+Final Project Blog Article: https://blackjackgamealx.blogspot.com/2023/07/blackjack-game-fun-and-addictive-card.html
 
-Author(s) LinkedIn:
+Author(s) LinkedIn: https://www.linkedin.com/in/briankipkemboi/
 
-Author 1 - John Doe
-Author 2 - Jane Smith
+Author 1 - Brian Kipkemboi
+
 Installation
 To play the BlackJack Game MVP locally on your machine, follow these installation instructions:
 
@@ -64,7 +64,7 @@ Make your modifications and commit changes to your branch.
 Push your changes to your forked repository.
 Submit a pull request to the original repository, explaining your changes and their purpose.
 Related Projects
-Currently, this MVP version of the BlackJack Game is a standalone project. However, we may expand this in the future and create related projects that add more features, better graphics, and multiplayer capabilities. Stay tuned for updates!
+Currently, this MVP version of the BlackJack Game is a standalone project. However, I may expand this in the future and create related projects that add more features, better graphics, and multiplayer capabilities. Stay tuned for updates!
 
 Licensing
-This project is licensed under the MIT License. You are free to use, modify, and distribute the code as long as you include the original license file and give appropriate credit to the authors. See the LICENSE file for more details.
+This project is for leraning purposes and therefore not licensed.
